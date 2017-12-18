@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ajax</title>
+	<link rel="stylesheet" type="text/css" href="../build/bootstrap.min.css">
+	<script type="text/javascript" src="../build/react.js"></script>
+	<script type="text/javascript" src="../build/react-dom.js"></script>
+	<script type="text/javascript" src="../build/browser.min.js"></script>
+	<script type="text/javascript" src="
+	../build/jquery.min.js"></script>
+
+</head>
+<body>
+	<h1><span class="label label-info">Demo</span></h1>
+	<div class="well" id="example"></div>
+	<script type="text/babel">
+		var Text= React.createClass({
+			getInitialState: function(){
+			return {
+				current_time:0, 
+				current_state:"defalt"
+				};
+			},
+			request: function(){
+				$.ajax({
+					type:"GET",
+					url:"http://xxx",
+					success:function(data){
+						this.setState({current_time: data.timestamp,current_state: "success"});
+					}.bind(this),
+					complete: function(){
+						this.setState({current_time: Date.parse(new Date())/1000, current_state: "complete"});
+					}.bind(this)
+				});
+			},
+			componentDidMount: function(){
+				setInterval(this.request, 1000);
+			},
+			render: function(){
+				return(
+				<div className="col-xs-12">
+					Current time :
+					{this.state.current_time}
+					Current state :
+					{this.state.current_state}
+					<div className={ this.state.current_time % 2 == 0? "hidden": "col-xs-6 alert alert-success"} >
+						<span>The time is odd</span>
+					</div>
+					<div className={ this.state.current_time % 2 != 0? "hidden": "col-xs-6 alert alert-info"} >
+						<span>The time is even</span>
+					</div>
+				</div>
+				);
+			}
+	});
+	ReactDOM.render(
+		<Text/>,
+		document.getElementById('example')
+
+	);
+	</script>
+</body>
+</html>

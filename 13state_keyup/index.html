@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>state_keyup</title>
+	<link rel="stylesheet" type="text/css" href="../build/bootstrap.min.css">
+	<script type="text/javascript" src="../build/react.js"></script>
+	<script type="text/javascript" src="../build/react-dom.js"></script>
+	<script type="text/javascript" src="../build/browser.min.js"></script>
+</head>
+<body>
+	<h1><span class="label label-info">Demo</span></h1>
+	<div class="well" id="example"></div>
+	<script type="text/babel">
+		var Text = React.createClass({
+		getInitialState: function(){
+			return {statename: "react"};
+		},
+		keyup: function(event){
+			this.setState({statename: event.target.value},function(){
+			console.log(this.state.name);
+		});
+		},
+		render: function(){
+			return(
+				<div className="a">
+					<p>This is state name :{this.state.statename} !</p>
+					<p>setState has the second parameter to receive the callback </p>
+					<input type="text" onKeyUp={this.keyup}/>
+				</div>
+			);
+		}
+	});
+	ReactDOM.render(
+		<Text/>,
+		document.getElementById('example')
+	);
+	</script>
+</body>
+</html>

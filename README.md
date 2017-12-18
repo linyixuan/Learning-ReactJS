@@ -11,7 +11,7 @@
 <li><a href="https://github.com/BinaryMuse/react-primer">React Primer</a>, by Binary Muse</li>
 <li><a href="http://blog.zigomir.com/react.js/jquery/2015/01/11/jquery-versus-react-thinking.html">jQuery versus React.js thinking</a>, by zigomir</li>
 </ul>
-2. codes 13 from the chinese website http://blog.csdn.net/iambinger/article/details/51803606 which applys "bootstrap" in demos
+2. codes 13-15 from the chinese website http://blog.csdn.net/iambinger/article/details/51803606 which applys "bootstrap" in demos
 <ul>
 	<li>Both 08 and 13 relate to "state", but 13 calls the "callback" function of setState</li>
 	<li>Both 11 and 14 relate to "Ajax",but 11 uses "componentDidMount" to get fixed information and 14 uses "request" and "setInterval" to get variational timestamp</li>

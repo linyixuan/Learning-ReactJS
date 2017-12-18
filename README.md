@@ -15,6 +15,6 @@
 <ul>
 	<li>Both 08 and 13 relate to "state", but 13 calls the "callback" function of setState</li>
 	<li>Both 11 and 14 relate to "Ajax",but 11 uses "componentDidMount" to get fixed information and 14 uses "request" and "setInterval" to get variational timestamp</li>
-	<li><a href="http://blog.csdn.net/lumeier/article/details/46398009">The different between script in head and body(chinese website)</a></li>
-	<li><a href="http://gaolizhong666.blog.163.com/blog/static/11561504220098110101672/">The different between @import and link(chinese website)</a></li>
+	<li><a href="http://blog.csdn.net/lumeier/article/details/46398009">The difference between script in head and body(chinese website)</a></li>
+	<li><a href="http://gaolizhong666.blog.163.com/blog/static/11561504220098110101672/">The difference between @import and link(chinese website)</a></li>
 </ul>

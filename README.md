@@ -12,7 +12,9 @@
 <li><a href="http://blog.zigomir.com/react.js/jquery/2015/01/11/jquery-versus-react-thinking.html">jQuery versus React.js thinking</a>, by zigomir</li>
 </ul>
 2. codes 13 from the chinese website http://blog.csdn.net/iambinger/article/details/51803606 which applys "bootstrap" in demos
-	Both 08 and 13 relate to "state", but 13 calls the "callback" function of setState
-	Both 11 and 14 relate to "Ajax",but 11 uses "componentDidMount" to get fixed information and 14 uses "request" and "setInterval" to get variational timestamp
-	The different between script in head and body:http://blog.csdn.net/lumeier/article/details/46398009 (chinese)
-	The different between @import and link:http://gaolizhong666.blog.163.com/blog/static/11561504220098110101672/ (chinese)
+<ul>
+	<li>Both 08 and 13 relate to "state", but 13 calls the "callback" function of setState</li>
+	<li>Both 11 and 14 relate to "Ajax",but 11 uses "componentDidMount" to get fixed information and 14 uses "request" and "setInterval" to get variational timestamp</li>
+	<li><a href="http://blog.csdn.net/lumeier/article/details/46398009">The different between script in head and body(chinese website)</a></li>
+	<li><a href="http://gaolizhong666.blog.163.com/blog/static/11561504220098110101672/">The different between @import and link(chinese website)</a></li>
+</ul>

@@ -18,3 +18,4 @@
 	<li><a href="http://blog.csdn.net/lumeier/article/details/46398009">The difference between script in head and body(chinese website)</a></li>
 	<li><a href="http://gaolizhong666.blog.163.com/blog/static/11561504220098110101672/">The difference between @import and link(chinese website)</a></li>
 </ul>
+3.code 16 is a simple project about react and webpack, it focus on building the development envorinment of webpack for react. this demo is from <a href="https://github.com/theJian/build-a-hn-front-page">the chinese website</a>

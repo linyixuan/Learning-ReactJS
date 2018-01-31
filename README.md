@@ -1,4 +1,4 @@
-# ReactJSLearning
+# Learning ReactJS
 1.codes 01-12 from  <a href="http://www.ruanyifeng.com/blog/2015/03/react.html">the chinese website</a> which is a good start for beginners.
 <ul>
 <li><a href="http://facebook.github.io/react">React's official site</a></li>

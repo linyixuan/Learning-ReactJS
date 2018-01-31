@@ -19,3 +19,5 @@
 	<li><a href="http://gaolizhong666.blog.163.com/blog/static/11561504220098110101672/">The difference between @import and link(chinese website)</a></li>
 </ul>
 3.code 16 is a simple project about react and webpack, it focus on building the development envorinment of webpack for react. this demo is from <a href="https://github.com/theJian/build-a-hn-front-page">the chinese website</a>
+
+4.useful website https://medium.com/dailyjs/11-mistakes-ive-made-during-react-native-redux-app-development-8544e2be9a9
